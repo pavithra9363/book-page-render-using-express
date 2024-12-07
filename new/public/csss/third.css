@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+.all{
+  
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: space-evenly;
+  
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+  margin: 20px;
+}
+.product img {
+  max-width: 100%;
+  height: 250px;
+}
+.price {
+  font-size: 30px;
+  color: green;
+}
+.description {
+  margin: 10px 0;
+}
+button{
+  background-color: blue;
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  border-radius: 10px;
+}
+button:hover{
+  background-color: red;
+}
